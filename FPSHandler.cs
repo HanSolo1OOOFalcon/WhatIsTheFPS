@@ -75,7 +75,7 @@ namespace WhatIsTheFPS
                 tpFPSText.font = nameTagHandler.rig.playerText1.font;
                 tpFPSText.fontSize = 7;
                 tpFPSText.text = "0";
-                tpFPSText.color = nameTagHandler.rig.mainSkin.material.color;
+                fpFPSText.color = nameTagHandler.rig.playerColor;
             }
             UpdateVelocityPatchThingy();
         }
