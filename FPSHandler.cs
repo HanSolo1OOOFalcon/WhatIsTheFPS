@@ -49,7 +49,7 @@ namespace WhatIsTheFPS
                 fpFPSText.font = nameTagHandler.rig.playerText1.font;
                 fpFPSText.fontSize = 7;
                 fpFPSText.text = "0";
-                fpFPSText.color = nameTagHandler.rig.mainSkin.material.color;
+                fpFPSText.color = nameTagHandler.rig.playerColor;
             }
 
             if (thirdPersonNameTag == null)
